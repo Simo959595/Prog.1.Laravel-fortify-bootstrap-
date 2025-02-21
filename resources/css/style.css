@@ -1,0 +1,112 @@
+/* rotte dei colori */
+:root{
+    --color-1: rgb(15, 2, 147);
+    --color-1Bis: rgba(15, 2, 147, 0.7);
+    --color-1Ter: rgba(15, 2, 147, 0.6);
+    --color-2: rgb(165, 11, 11);
+    --color-3: rgb(220, 105, 12);
+    --color-4: rgb(205, 221, 207);
+    --color-5: rgb(0, 0, 0);
+}
+
+/* body */
+body{
+    min-height: 1450px;
+    background-color: rgba(140, 186, 170, 0.5);
+    background: url(/public/media/sfondo.jpg);
+    backdrop-filter: blur(4px) ;
+    background-size: cover;
+}
+
+/* navbar */
+.navbar-body{
+    background: linear-gradient(var(--color-3), var(--color-4));
+}
+
+.navStyle{
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    border-bottom-right-radius: 60px;
+    border-bottom-left-radius: 60px;
+}
+
+.home-text{
+    color: var(--color-2);
+    font-weight: 600;
+    padding-bottom: 27px;
+}
+
+.navbar-text{
+    color: var(--color-1);
+    font-weight: 600;
+    padding-bottom: 35px;
+}
+
+
+.box-size{
+    height: 58px;
+}
+
+
+.search-text{
+    color: var(--color-1);
+    background-color: var(--color-2);
+    font-weight: 600;
+}
+
+
+.footer-body{
+    background: linear-gradient(var(--color-4), var(--color-3));
+    position: fixed;
+    width: 100%;
+    bottom: 10px;
+}
+
+
+.btn-body{
+    background-color: var(--color-2);
+    position: absolute;
+    right: 10px;
+    top: 0px;
+    color: var(--color-1);
+    background-color: var(--color-2);
+    font-weight: 600;
+    height: 56px;
+}
+
+
+.footer-info{
+    color: var(--color-1);
+    font-weight: 600;
+}
+
+
+.footer-text{
+    color: var(--color-5);
+}
+
+
+.main-title{
+    color: var(--color-1Bis);
+    font-size: 100px;
+    margin-top: 40px;
+    text-align: center;
+    font-style: oblique;
+}
+
+
+.carta{
+    width: 75vh;
+    height: auto;
+    align-items: center;
+    left: 300px;
+}
+
+
+.second-title{
+    color: var(--color-1Ter);
+    font-size: 80px;
+    margin-top: 65px;
+    text-align: left;
+    margin-left: 10px;
+}
